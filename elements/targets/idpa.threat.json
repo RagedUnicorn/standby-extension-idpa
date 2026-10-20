@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "idpa.threat",
+  "names": {
+    "en": "Threat",
+    "de": "Threat",
+    "fr": "Threat"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["idpa"],
+  "labelFamily": "T",
+  "count": {
+    "class": "paper"
+  },
+  "art": {
+    "kind": "board",
+    "board": "idpa"
+  },
+  "physical": {
+    "width": 460.4,
+    "height": 781.1
+  }
+}

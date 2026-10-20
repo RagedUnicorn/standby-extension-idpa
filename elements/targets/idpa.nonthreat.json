@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "idpa.nonthreat",
+  "names": {
+    "en": "Non-threat",
+    "de": "Non-threat",
+    "fr": "Non-threat"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["idpa"],
+  "labelFamily": null,
+  "count": {
+    "class": "noshoot"
+  },
+  "art": {
+    "kind": "board",
+    "board": "idpa",
+    "noShoot": "hands"
+  },
+  "physical": {
+    "width": 460.4,
+    "height": 781.1
+  }
+}

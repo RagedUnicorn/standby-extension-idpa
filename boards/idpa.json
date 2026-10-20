@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/board.json",
+  "id": "idpa",
+  "discipline": "idpa",
+  "width": 460.4,
+  "height": 781.1,
+  "outline": [
+    [144.5, 0],
+    [315.9, 0],
+    [315.9, 152.4],
+    [405.2, 152.4],
+    [460.4, 235],
+    [460.4, 647],
+    [388.2, 781.1],
+    [72.2, 781.1],
+    [0, 647],
+    [0, 235],
+    [55.2, 152.4],
+    [144.5, 152.4]
+  ],
+  "covers": {
+    "right": {
+      "a": [230.2, 0],
+      "b": [230.2, 781.1],
+      "keep": [460.4, 0]
+    },
+    "left": {
+      "a": [230.2, 0],
+      "b": [230.2, 781.1],
+      "keep": [0, 0]
+    },
+    "bottom": {
+      "a": [0, 450],
+      "b": [460.4, 450]
+    }
+  },
+  "noShoot": {
+    "hands": {
+      "palm": "M6 26Q6 20 12 20L30 20Q36 20 36 26L36 42Q36 56 22 56L18 56Q6 56 6 44Z",
+      "fingers": [[7, 4, 6, 20], [14, 0, 6, 24], [21, 1, 6, 23], [28, 5, 6, 19]],
+      "fingerRadius": 3,
+      "thumb": "M35 33L43 24Q46 21 49 24Q51 27 48 30L39 42Z",
+      "box": 50,
+      "middle": 28,
+      "share": 0.33
+    }
+  },
+  "source": {
+    "repo": "RagedUnicorn/shooting-sports-targets",
+    "file": "tools/affinity_scripts/idpa_master_generate.js",
+    "commit": "e2b6677fec8dc5a1c2f659c52993bd6f1a5f4a8c"
+  }
+}

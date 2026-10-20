@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/extension.json",
+  "format": 1,
+  "id": "idpa",
+  "names": {
+    "en": "IDPA",
+    "de": "IDPA",
+    "fr": "IDPA"
+  },
+  "version": "1.0.0",
+  "standby": "0.1.0",
+  "repository": "RagedUnicorn/standby-extension-idpa",
+  "licence": "MIT",
+  "disciplines": ["idpa"],
+  "stageDefaults": {
+    "idpa": {
+      "board": "idpa",
+      "trapTarget": "idpa.threat"
+    }
+  },
+  "aliases": {
+    "idpa.paper": "idpa.threat",
+    "idpa.noshoot": "idpa.nonthreat"
+  },
+  "order": ["idpa.threat", "idpa.nonthreat", "idpa.hardcover"]
+}

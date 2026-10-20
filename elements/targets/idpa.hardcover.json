@@ -1,0 +1,43 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "idpa.hardcover",
+  "names": {
+    "en": "Threat with hard cover",
+    "de": "Threat mit Hard Cover",
+    "fr": "Threat avec hard cover"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["idpa"],
+  "labelFamily": "T",
+  "count": {
+    "class": "paper"
+  },
+  "art": {
+    "kind": "board",
+    "board": "idpa",
+    "cover": "right"
+  },
+  "variants": ["right", "left", "bottom"],
+  "variantNames": {
+    "right": {
+      "en": "Right half covered",
+      "de": "Rechte Hälfte abgedeckt",
+      "fr": "Moitié droite couverte"
+    },
+    "left": {
+      "en": "Left half covered",
+      "de": "Linke Hälfte abgedeckt",
+      "fr": "Moitié gauche couverte"
+    },
+    "bottom": {
+      "en": "Lower body covered",
+      "de": "Unterkörper abgedeckt",
+      "fr": "Bas du corps couvert"
+    }
+  },
+  "physical": {
+    "width": 460.4,
+    "height": 781.1
+  }
+}
