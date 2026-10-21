@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/board.json",
+  "id": "idpa-retention",
+  "discipline": "idpa",
+  "width": 460.4,
+  "height": 781.1,
+  "outline": [
+    [144.5, 0],
+    [315.9, 0],
+    [315.9, 152.4],
+    [405.2, 152.4],
+    [460.4, 235],
+    [460.4, 647],
+    [388.2, 781.1],
+    [72.2, 781.1],
+    [0, 647],
+    [0, 235],
+    [55.2, 152.4],
+    [144.5, 152.4]
+  ],
+  "holes": [{ "circle": [230.2, 339.7, 101.6] }],
+  "source": {
+    "repo": "RagedUnicorn/shooting-sports-targets",
+    "file": "tools/affinity_scripts/idpa_master_generate.js",
+    "commit": "e2b6677fec8dc5a1c2f659c52993bd6f1a5f4a8c",
+    "note": "The hole is the body -0 circle (body-plus-zero), 8 in across."
+  }
+}
