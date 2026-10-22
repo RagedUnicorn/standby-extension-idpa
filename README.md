@@ -1,3 +1,5 @@
+![standby-extension-idpa](docs/standby_extension_idpa_banner.svg)
+
 # Standby extension: IDPA
 
 What [Standby](https://github.com/RagedUnicorn/standby) draws for IDPA stages:
