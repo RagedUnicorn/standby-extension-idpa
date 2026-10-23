@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "idpa.table-box",
+  "names": {
+    "en": "Table with box",
+    "de": "Tisch mit Box",
+    "fr": "Table avec boîte"
+  },
+  "category": "props",
+  "family": "prop",
+  "disciplines": ["idpa"],
+  "labelFamily": "Table",
+  "count": {
+    "class": "none"
+  },
+  "art": {
+    "kind": "asset",
+    "labelY": -525
+  },
+  "views": [
+    {
+      "id": "across",
+      "rotations": [0, 180],
+      "names": {
+        "en": "Across",
+        "de": "Quer",
+        "fr": "En travers"
+      }
+    },
+    {
+      "id": "along",
+      "rotations": [90, 270],
+      "names": {
+        "en": "Along",
+        "de": "Längs",
+        "fr": "En long"
+      }
+    }
+  ],
+  "physical": {
+    "width": 1200,
+    "height": 900
+  },
+  "footprint": {
+    "depth": 800
+  },
+  "surfaces": [
+    {
+      "top": 750,
+      "rect": [-600, -375, 600, 375]
+    },
+    {
+      "top": 765,
+      "rect": [-285, -185, 285, 185]
+    }
+  ]
+}

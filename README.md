@@ -5,6 +5,7 @@
 What [Standby](https://github.com/RagedUnicorn/standby) draws for IDPA stages:
 
 - **Targets**: threat, non-threat, threat with hard cover, and the retention threat with its -0 circle cut out.
+- **Props**: a table with an open box on its top, for magazines or a gun staged in the box.
 - **Boards** `idpa`: the true outline (seeded from RagedUnicorn/shooting-sports-targets), the hard-cover lines and the non-threat's open hands; `idpa-retention`: the same outline with the body -0 circle (8 in) cut out.
 - **Stage defaults**: IDPA stages' movers take the `idpa` board, and a bullet trap carries the threat target.
 
