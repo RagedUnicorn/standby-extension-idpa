@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "idpa.port-flap-bottom",
+  "names": {
+    "en": "Port flap, hinged at the bottom",
+    "de": "Port-Klappe, unten angeschlagen",
+    "fr": "Volet de port, charnière en bas"
+  },
+  "category": "props",
+  "family": "prop",
+  "disciplines": ["idpa"],
+  "labelFamily": null,
+  "count": {
+    "class": "none"
+  },
+  "art": {
+    "kind": "asset"
+  },
+  "physical": {
+    "width": 700,
+    "height": 1550,
+    "depth": 40
+  },
+  "cover": {
+    "kind": "flap"
+  }
+}
